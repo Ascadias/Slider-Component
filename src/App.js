@@ -1,9 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import Slidershow from './components/slideshow/Slider';
 
 function App() {
   return (
     <div className="App">
-	<p>A</p>
+      <h1>Productos Destacados</h1>
+      <Slidershow />
     </div>
   );
 }
